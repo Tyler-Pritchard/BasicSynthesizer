@@ -85,6 +85,10 @@
 			isa = PBXBuildFile;
 			fileRef = BA30E68D9219415960052ED1;
 		};
+		8BF70059EF50519E17DFBB6B = {
+			isa = PBXBuildFile;
+			fileRef = 45E3E763125C9C1AA0965B24;
+		};
 		C25F0A00009F6F683552229C = {
 			isa = PBXBuildFile;
 			fileRef = 17633553DF8BD31EBADEC368;
@@ -297,6 +301,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp";
 			sourceTree = "SOURCE_ROOT";
 		};
+		45E3E763125C9C1AA0965B24 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = SynthVoice.cpp;
+			path = ../../Source/SynthVoice.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		4755D8F61A525C8774E423B8 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -500,11 +511,25 @@
 			path = ../../Source/PluginEditor.h;
 			sourceTree = "SOURCE_ROOT";
 		};
+		DDB08EBEF76A79F8793A97C7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SynthSound.h;
+			path = ../../Source/SynthSound.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		DE025363A54A504892C8A491 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
 			name = PluginProcessor.cpp;
 			path = ../../Source/PluginProcessor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		E37075952568A6ED0536EF21 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SynthVoice.h;
+			path = ../../Source/SynthVoice.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		E8F0A042FF262C98F2988A4A = {
@@ -571,6 +596,9 @@
 			isa = PBXGroup;
 			children = (
 				617EFB4A6C919448C1312333,
+				DDB08EBEF76A79F8793A97C7,
+				45E3E763125C9C1AA0965B24,
+				E37075952568A6ED0536EF21,
 			);
 			name = tapSynth;
 			sourceTree = "<group>";
@@ -1984,6 +2012,7 @@
 			files = (
 				3A109060B17E6E70176C40A3,
 				49512A7B2B5C5CDFDAD60B62,
+				8BF70059EF50519E17DFBB6B,
 				C25F0A00009F6F683552229C,
 				D2BB2D29846B494D17AFB2E0,
 				F4FA271A6CC3CA7EE8A9F165,
